@@ -1,0 +1,6 @@
+panda
+pyyaml
+openai
+python-dotenv
+tabulate
+streamlit
