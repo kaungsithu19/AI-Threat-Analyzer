@@ -37,25 +37,24 @@ The system ingests Windows/Linux/SIEM logs, detects anomalies, and outputs struc
 
 ## 🧩 Folder Structure
 
+```
+
 ai-threat-analyzer/
-├── data/ # Input logs
-├── outputs/ # Generated reports
-├── src/ # Source modules
-│ ├── parser.py # Log ingestion and parsing
-│ ├── ai_analyzer.py # AI-driven threat analysis
-│ ├── mitre_mapper.py # MITRE ATT&CK mapping
-│ └── report_generator.py # Report creation
-├── app.py # Streamlit dashboard
-├── main.py # CLI runner
-├── config.yaml # Model config
-├── requirements.txt # Dependencies
-├── .env # API key (DO NOT COMMIT)
+├── data/                 # Input logs
+├── outputs/              # Generated reports
+├── src/                  # Source modules
+│    ├── parser.py        # Log ingestion and parsing
+│    ├── ai_analyzer.py   # AI-driven threat analysis
+│    ├── mitre_mapper.py  # MITRE ATT&CK mapping
+│    └── report_generator.py # Report creation
+├── app.py                # Streamlit dashboard
+├── main.py               # CLI runner
+├── config.yaml           # Model config
+├── requirements.txt      # Dependencies
+├── .env                  # API key (DO NOT COMMIT)
 └── README.md
 
-yaml
-Copy code
-
----
+````
 
 ## 🚀 Setup Instructions
 
@@ -64,3 +63,4 @@ Copy code
 ```bash
 git clone https://github.com/<your-username>/ai-threat-analyzer.git
 cd ai-threat-analyzer
+
